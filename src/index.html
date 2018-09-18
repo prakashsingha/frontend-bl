@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+    <head>
+        <title>Frontend Test</title>
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:400,800">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+        <link rel="stylesheet" href="/css/bootstrap.css">
+        <link rel="stylesheet" href="/css/styles.css">
+    </head>
+
+    <body>                  
+        <nav class="navbar navbar-expand-lg fixed-top navbar-dark shadow justify-content-around">
+            <div class="col-4">
+                    <a class="navbar-brand" href="/">
+                        <img src="/assets/TRV_L.png" class="img-fluid" alt="TRV:L">
+                    </a>
+            </div>
+            
+            <div class="col-4 collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                            <li class="nav-item mx-2 dropdown">
+                                <a class="nav-link dropdown-toggle" id="navbar-dropdown" data-toggle="dropdown" href="#">Destinations</a>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item" href="#">Asia</a>
+                                    <a class="dropdown-item" href="#">North America</a>
+                                    <a class="dropdown-item" href="#">South America</a>
+                                    <a class="dropdown-item" href="#">Africa</a>
+                                    <a class="dropdown-item" href="#">Australia</a>
+                                    <a class="dropdown-item" href="#">Europe</a>
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link mx-2" href="#">Blog</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link mx-2" href="#">Contact</a>
+                            </li>
+                         </ul>
+            </div>
+        </nav>
+
+        <div class="hero-holder">
+            <div class="container d-flex flex-column">
+                <div class="row">
+                    <div class="col-md-6 col-sm-12 mx-auto">
+                        <div class="top-circle">
+                                <h5 class="h5 py-2 m-0 text-center">PLAN your next </h5>
+                                <h2 class="h2 text-center">CAMPING TRIP</h2>
+                        </div>
+
+                        <div class="search-container">
+                            <form id="tripSearch">
+                                <div class="form-group typeahead">
+                                    <div class="input-group mb-3">
+                                        <input type="text" class="form-control typeahead-input" id="addFilter" placeholder="Where do you want to go?" aria-label="Where do you want to go?">
+    
+                                        <div class="typeahead-dropdown list-group">
+                                            <a href="#" class="list-group-item disabled select-label">Top pick this month</a>
+                                            <a href="#" class="list-group-item">Canada</a>
+                                            <a href="#" class="list-group-item">India</a>
+                                            <a href="#" class="list-group-item">France</a>
+                                            <a href="#" class="list-group-item">South Korea</a>
+                                        </div>
+    
+                                        <div class="input-group-append">
+                                            <button class="btn" type="button"><i class="fas fa-search"></i></button>
+                                        </div>
+                                    </div>
+                                </div>                                
+                            </form>
+                        </div>                        
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-5 col-sm-12 mx-auto text-center go-down">
+                        <img src="/assets/paperclip-icon@2x.svg" class="img-fluid" alt="TRV:L"><br />
+                        <i class="fas fa-angle-down text-light"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="hero-separator shadow-sm">
+            &nbsp;
+        </div>
+
+        <div class="container trip-container">
+            <div class="row">
+                <div class="col-md-8 mx-auto my-5">
+                    <div class="text-center trip-need mx-md-auto mb-9">
+                        <h2 class="h3">EVERYTHING YOU NEED FOR A <br/>
+                            PERFECT ROAD TRIP
+                        </h2>
+                        <div class="text-center">
+                            <a href="#">
+                                <img src="/assets/paperclip-icon@2x.svg" class="img-fluid" alt="TRV:L">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="trip-item text-center px-lg-3 my-5">
+                                <div class="trip-item-holder"><img src="/assets/mobile-home-icon@2x.svg" class="img-fluid" alt="TRV:L"></div>
+                                <div class="trip-item-holder trip-item-label">MOBILE HOME</div>
+                                <div class="trip-item-holder"><a href="#" class="btn rounded-button" role="button" aria-pressed="true">See List</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="trip-item text-center px-lg-3 my-5">
+                                <div class="trip-item-holder"><img src="/assets/backpack-icon@2x.svg" class="img-fluid" alt="TRV:L"></div>
+                                <div class="trip-item-holder trip-item-label">A BACKPACK</div>
+                                <div class="trip-item-holder"><a href="#" class="btn rounded-button" role="button" aria-pressed="true">Shop</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="trip-item text-center px-lg-3 my-5">
+                                <div class="trip-item-holder"><img src="/assets/survival-icon@2x.svg" class="img-fluid" alt="TRV:L"></div>
+                                <div class="trip-item-holder trip-item-label">SURVIVAL KIT</div>
+                                <div class="trip-item-holder"><a href="#" class="btn rounded-button" role="button" aria-pressed="true">See Checklist</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>            
+        </div>
+
+        <div class="gallery-container bg-dark">
+            <div class="img-holder">
+                <img class="view-icon" src="/assets/view-icon.png" />
+                <img class="thumbnail" src="/assets/img1.jpg" alt="img1" />
+            </div>            
+            <div class="img-holder">
+                <a href="#" class="bubble-link">
+                    <span class="bubble-holder">
+                        <span class="text-center bubble-small-label">Plan the Perfect Trip</span>
+                        <span class="text-center bubble-big-label">Road to Milford Sound</span>
+                    </span>
+                    
+                    <span class="btn rounded-button">View Itenary</span>
+                    <img class="view-icon" src="/assets/view-icon.png" />
+                </a>
+                <img class="thumbnail" src="/assets/img2.jpg" alt="img2" />
+            </div>
+            <div class="img-holder">
+                <img class="view-icon" src="/assets/view-icon.png" />
+                <img class="thumbnail" src="/assets/img3.jpg" alt="img3" />
+            </div>
+            <div class="img-holder">
+                <img class="view-icon" src="/assets/view-icon.png" />
+                <img class="thumbnail" src="/assets/img4.jpg" alt="img4" />
+            </div>
+        </div>
+
+        <div class="clearfix">...</div>
+        <div class="container featured-container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="featured-icon">
+                        <img src="/assets/paperclip-icon@2x.svg" class="img-fluid" alt="TRV:L">
+                    </div>                    
+                    <h3 class="featured-story">FEATURED STORY</h3>
+                    <div class="featured-title">
+                        TRV:LR SHARES HER AMAZING EXPERIENCE IN THE OUTBACK OF AUSTRALIA 
+                    </div>
+                    <div class="featured-into">
+                        <input type="checkbox" class="read-more-state" id="post-1" />
+                        <p class="read-more-wrap">On the road for 6 months, I never thought I would survive the harsh heat and seclusion of the Australian outback. 
+                                I have never been so nervous about not having enough water or an empty tank it is. . . 
+                                <span class="read-more-target">On the road for 6 months,
+                                        I never thought I would survive the harsh heat and seclusion of the Australian outback. 
+                                        I have never been so nervous about not having enough water or an empty tank it is the scariest moment in my life.
+                                        But I do not regret having to seize this opportunity to explore the wonders of Australia 
+                                        from a different prespective away from tourism videos.
+                                </span>
+                                <label for="post-1" class="read-more-trigger"></label>
+                        </p>
+                                              
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <img src="/assets/picnic.jpg" class="img-fluid" alt="picnic" />
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bar text-center py-5">
+            <div class="container">
+                <div class="footer-icon p-2">
+                    <img src="/assets/paperclip-icon@2x.svg" class="img-fluid" alt="TRV:L">
+                </div>
+                <div class="row footer-link p-2 mx-auto col-md-6">
+                        <div class="col-md-4"><a href="#">Contact </a></div>
+                        <div class="col-md-4"><a href="#">Blog </a></div>
+                        <div class="col-md-4"><a href="#">Customer Support </a></div>
+                </div>
+                <div class="copyright p-2">
+                    &copy; copyright 2018
+                </div>
+            </div>
+            
+        </div>
+
+
+        <script src="/js/jquery.min.js"></script>
+        <script src="/js/popper.min.js"></script>
+        <script src="/js/bootstrap.min.js"></script>
+    </body>
+</html>
